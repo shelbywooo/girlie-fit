@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Mandali&display=swap');
+
+body {
+  background-color: #EEF4FF;
+  color: #212121;
+  font-family: 'Mandali', sans-serif;
+}
+
+.navbar {
+  background-color: #f6ccff;
+  
+  &-brand {
+    color: #0d66fc;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    transition: color 0.5s;
+
+    &:hover {
+      color: #0e4ebe;
+    }
+  }
+}
+
+a {
+  transition: color 0.5s;
+
+  &:hover {
+    color: #0e4ebe;
+  }
+}
+
+.btn-primary {
+  background-color: #0d66fc;
+
+  &:hover {
+    background-color: #0e4ebe;
+  }
+}
+
+.btn-secondary {
+  background-color: #ffffff;
+  border-color: #0D66fc;
+  color: #0D66fc;
+
+  &:hover {
+    background-color: #ffffff;
+    border-color: #0e4ebe;
+    color: #0e4ebe;
+  }
+}
+
+.card-title {
+  background-color: #f6ccff;
+  color: #0d66fc;
+  font-weight: 600;
+}
